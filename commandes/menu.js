@@ -41,7 +41,7 @@ const date = moment().format('DD/MM/YYYY');
 🍥  *Mémoire* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │   *Plateforme* : ${os.platform()}
 │   *Développeurs* :  ʟᴏᴜᴋsᴏɴ×ᴜᴢᴜᴍᴀᴋɪ
-🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥
+🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥
 🌀🌀🌀🌀🌀🌀🌀🌀🌀
 🍜🤘🏻🍃🄻🄾🅄🄺🅂🄾🄽🍥🌀
 🤘🏻🤘🏻🅄🅉🅄🄼🄰🄺🄸🤘🏻🤘🏻🤘🏻
