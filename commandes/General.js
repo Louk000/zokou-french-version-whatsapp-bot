@@ -2,7 +2,7 @@ const { zokou } = require("../framework/zokou");
 const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../bdd/sudo")
 const conf = require("../set");
 
-zokou({ nomCom: "proprio", categorie: "Général", reaction: "💞" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "proprio", categorie: "Général", reaction: "🍃" }, async (dest, zk, commandeOptions) => {
     const { ms , mybotpic } = commandeOptions;
     
   const thsudo = await isSudoTableNotEmpty()
@@ -29,7 +29,7 @@ zokou({ nomCom: "proprio", categorie: "Général", reaction: "💞" }, async (de
       zk.sendMessage(
         dest,
         {
-          image : { url : 'https://furansujapon.com/wp-content/uploads/2023/03/Saitama-dans-One-Punch-Man-1052x592.jpg'},
+          image : { url : 'https://telegra.ph/file/c393551b921b40ad897e7.jpg'},
           caption : msg,
           mentions : mentionedJid
         }
@@ -51,16 +51,17 @@ zokou({ nomCom: "proprio", categorie: "Général", reaction: "💞" }, async (de
   }
 });
 
-zokou({ nomCom: "dev", categorie: "Général", reaction: "💞" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "dev", categorie: "Général", reaction: "🍃" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
       { nom: "Djalega++", numero: "22559763447" },
       { nom: "᚛M๏𝓷keℽ D Lบffy᚜", numero: "22891733300" },
+      { nom: "ʟᴏᴜᴋsᴏɴ×ᴜᴢᴜᴍᴀᴋɪ", numero: " 22575285416" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "👋 Bienvenue chez Zokou ! Voici les développeurs :\n\n";
+    let message = "Yo🤘🏻🌀🍜🍥 Bienvenue chez ɴᴀʀᴜᴛᴏ ! Voici les développeurs :\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
